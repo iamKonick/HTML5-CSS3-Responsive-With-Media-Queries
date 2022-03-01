@@ -86,10 +86,18 @@ i {
 .player img {
   height: 256px;
   padding: 15px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 .player-description {
-  padding: 0 15px 0 15px;
+  padding: 0 15 px 0 15px;
+}
+
+.player img:hover {
+  opacity: 1;
+  border-radius: 15%;
+  border: 1px solid #e02c6d;
 }
 
 .player h3 {
@@ -155,4 +163,20 @@ footer {
 
 .social-icons img {
   width: 30%;
+}
+
+@keyframes hiYaaa {
+  60% {
+    transform: scale(1.2);
+
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-image {
+  animation: hiYaaa 5s infinite;
 }
