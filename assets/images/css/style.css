@@ -19,6 +19,8 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
+  margin-left: 56px;
+  margin-top: 50px;
 }
 
 nav > ul > li > a {
